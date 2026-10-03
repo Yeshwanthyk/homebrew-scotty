@@ -1,23 +1,23 @@
 class Scotty < Formula
   desc "Codex and Claude sessions in Cloudflare Containers"
   homepage "https://github.com/Yeshwanthyk/scotty"
-  version "0.5.2"
+  version "0.6.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Yeshwanthyk/scotty/releases/download/v0.5.2/scotty-darwin-arm64.tar.gz"
-      sha256 "76ac202db39a85630a75a3223a0eb998750b12ad89275a86aeff9d3f323eaf84"
+      url "https://github.com/Yeshwanthyk/scotty/releases/download/v0.6.0/scotty-darwin-arm64.tar.gz"
+      sha256 "81900801830ef07dd60f349989361a264727ef37920145ace58276156f0e371d"
     end
     on_intel do
-      url "https://github.com/Yeshwanthyk/scotty/releases/download/v0.5.2/scotty-darwin-x64.tar.gz"
-      sha256 "e4a243f552ac2083df52925123d81d89e8b6adbf178f8d5ccefd240bc6c701f8"
+      url "https://github.com/Yeshwanthyk/scotty/releases/download/v0.6.0/scotty-darwin-x64.tar.gz"
+      sha256 "abc5fec07ec62bcd4f1507db339583be0936409df544217ec8282271fb46c874"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/Yeshwanthyk/scotty/releases/download/v0.5.2/scotty-linux-x64.tar.gz"
-      sha256 "90b9c56a3d675d441244210389c353f061eeda743a6eb3576825e303cdbe8fd0"
+      url "https://github.com/Yeshwanthyk/scotty/releases/download/v0.6.0/scotty-linux-x64.tar.gz"
+      sha256 "7e3ddb40c96723e4466f892161db91285f00d1eb0c49496a415db2e4ef649881"
     end
   end
 
